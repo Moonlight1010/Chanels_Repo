@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    overflow-x: hidden;
+    background-color: rgba(205, 134, 63, 0.073);
+}
+.img_section{
+    height:500px;
+    background: url(./img/channel.jpg) no-repeat center center/cover;
+}
+.row{
+    max-width: 70%;
+    height: fit-content;
+    margin: 0 auto !important;
+    box-shadow: 0 4px -6px 0 rgba(42, 41, 41, 0.091);
+}
+.perfume_immediate_container{
+    margin-bottom: 10px;
+}
+.perfume{
+    color: rgba(49, 46, 46, 0.612);
+}
+.chanel{
+    color: rgba(49, 46, 46, 0.612);
+}
+.text_section{
+    height: 500px;
+    padding: 30px 30px !important;
+    display: flex;
+    align-items: center;
+}
+.line_through{
+    padding-left: 15px;
+    text-decoration: line-through;
+}
+.price{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.discounted_price{
+    color: #447e68;
+}
+.button_tag{
+    background-color: #184131 !important;
+    color: white !important;
+}
+.button_tag:hover{
+    background-color: #447e68 !important;
+}
